@@ -1,0 +1,62 @@
+:root {
+    --color-white: #fff;
+    --color-burgundy: #7A0019;
+    --color-gold: #C9A227 ;
+    --color-dark-gray: #1E1E1E;
+    --color-medium-gray: #B5B5B5;
+    --color-black: #000;
+    --color-light-gray: #F5F5F5;
+    --color-light-pink: #FFDBE2;
+    --color-blue: #6C49F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Paytone One", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--color-gold);
+    border: 2px solid var(--color-black);
+    padding: 5px 15px;
+    border-radius: 40px;
+    display: flex;
+    color: var(--color-black);
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-secondary {
+    background-color: var(--color-burgundy);
+    padding: 5px 15px;
+    border-radius: 40px;
+    display: flex;
+    color: var(--color-white);
+    font-family: "Roboto", sans-serif;
+}
