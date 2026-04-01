@@ -1,0 +1,18 @@
+# --- Java/Ant build output ---
+/build/
+/dist/
+/out/
+*.class
+
+# --- NetBeans private (machine-specific) ---
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# --- Logs ---
+*.log
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
