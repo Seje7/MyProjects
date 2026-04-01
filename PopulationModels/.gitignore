@@ -27,6 +27,9 @@ logs
 # Testing
 /coverage
 
+# coverage reports
+coverage/
+
 # IDE / Editor files
 .idea/
 .vscode/
